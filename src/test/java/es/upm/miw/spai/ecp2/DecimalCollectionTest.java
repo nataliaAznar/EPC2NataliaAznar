@@ -8,7 +8,7 @@ import org.junit.Test;
 public class DecimalCollectionTest {
 	private DecimalCollection dc;
 	
-	 @Before
+	 	@Before
 	    public void before() {
 	        dc = new DecimalCollection();
 	        dc.add(1.1);
