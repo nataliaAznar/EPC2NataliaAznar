@@ -37,5 +37,10 @@ public class UserTest {
     public void testInitials(){
     	assertEquals("N.", this.user.initials());
     }
+     
+   @Test
+   public void testGetUpperName (){
+	   assertEquals("NATALIA", user.getUpperName());
+   }
 
 }
