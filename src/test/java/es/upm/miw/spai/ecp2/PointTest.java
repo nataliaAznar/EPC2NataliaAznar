@@ -47,5 +47,17 @@ public class PointTest {
     public void testToString() {
         assertEquals("Point[2,3]", pt.toString());
     }
+    
+    @Test
+    public void testModifyCoordinates (){
+    	//Comprobamos el valor inicial 
+    	assertEquals("Point[2,3]", pt.toString());
+    	
+    	//Modificamos coordenadas
+    	pt.modifyCoordinates(10,15);
+    	
+    	//Comprobamos las nuevas coordenadas
+    	assertEquals("Point[10,15]", pt.toString());
+    }
 
 }

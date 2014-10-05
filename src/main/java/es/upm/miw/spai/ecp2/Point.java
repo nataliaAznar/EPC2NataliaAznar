@@ -41,5 +41,9 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+	public void modifyCoordinates(int x, int y) {
+		// TODO Implementar cuerpo del metodo
+	}
     
 }
