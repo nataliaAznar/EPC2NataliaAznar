@@ -39,7 +39,6 @@ public class User {
     }
 
 	public String getUpperName() {
-		// TODO Implementar cuerpo del metodo
-		return null;
+		return this.name.toUpperCase();
 	}
 }
