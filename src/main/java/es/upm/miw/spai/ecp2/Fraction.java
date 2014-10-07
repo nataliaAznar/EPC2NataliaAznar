@@ -66,8 +66,9 @@ public class Fraction {
     }
     
     public Boolean isEquivalente (Fraction fraction){
-    	//TODO
-    	return false;
+    	Integer productoExtremos = this.getNumerator() * fraction.getDenominator();
+    	Integer productoMedios = this.getDenominator() * fraction.getNumerator();
+    	return productoExtremos.equals(productoMedios);
     }
     
     public Fraction higher (Fraction fraction){
