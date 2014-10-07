@@ -60,4 +60,19 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public Boolean isPropia (){
+    	//TODO
+    	return false;
+    }
+    
+    public Boolean isEquivalente (Fraction fraction){
+    	//TODO
+    	return false;
+    }
+    
+    public Fraction higher (Fraction fraction){
+    	//TODO
+    	return null;
+    }
+    
 }

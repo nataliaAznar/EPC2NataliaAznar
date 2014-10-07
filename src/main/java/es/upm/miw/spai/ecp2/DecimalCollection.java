@@ -1,6 +1,7 @@
 package es.upm.miw.spai.ecp2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DecimalCollection {
@@ -34,5 +35,11 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public double lower() {
+    	Collections.sort(collection);
+        return collection.get(0);
+    }
+
 
 }
