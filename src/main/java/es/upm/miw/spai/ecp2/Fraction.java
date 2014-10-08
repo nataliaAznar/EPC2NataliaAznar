@@ -71,8 +71,13 @@ public class Fraction {
     }
     
     public Fraction higher (Fraction fraction){
-    	//TODO
-    	return null;
+    	double firstFraction = this.decimal();
+    	double secondFraction = fraction.decimal();
+    	if(firstFraction > secondFraction){
+    		return this;
+    	}else{
+    		return fraction;
+    	}
     }
     
 }
