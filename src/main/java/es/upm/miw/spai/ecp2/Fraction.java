@@ -61,8 +61,7 @@ public class Fraction {
     }
     
     public Boolean isPropia (){
-    	//TODO
-    	return false;
+    	return this.numerator < this.denominator;
     }
     
     public Boolean isEquivalente (Fraction fraction){
