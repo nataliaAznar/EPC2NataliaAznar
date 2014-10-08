@@ -43,7 +43,8 @@ public class Point {
     }
 
 	public void modifyCoordinates(int x, int y) {
-		// TODO Implementar cuerpo del metodo
+		this.x = x;
+		this.y = y;
 	}
     
 }
