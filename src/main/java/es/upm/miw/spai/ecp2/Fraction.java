@@ -61,18 +61,23 @@ public class Fraction {
     }
     
     public Boolean isPropia (){
-    	//TODO
-    	return false;
+    	return this.numerator < this.denominator;
     }
     
     public Boolean isEquivalente (Fraction fraction){
-    	//TODO
-    	return false;
+    	Integer productoExtremos = this.getNumerator() * fraction.getDenominator();
+    	Integer productoMedios = this.getDenominator() * fraction.getNumerator();
+    	return productoExtremos.equals(productoMedios);
     }
     
     public Fraction higher (Fraction fraction){
-    	//TODO
-    	return null;
+    	double firstFraction = this.decimal();
+    	double secondFraction = fraction.decimal();
+    	if(firstFraction > secondFraction){
+    		return this;
+    	}else{
+    		return fraction;
+    	}
     }
     
 }
